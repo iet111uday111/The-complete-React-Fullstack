@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../css/styles.css';
 
 /**
  * @function getYear
@@ -58,9 +58,25 @@ import React, { Component } from 'react';
  */
 class Header extends Component {
     render() {
+        /**
+         * @description Inline styles
+         */
+        
+         /*const styles = {
+            header: {
+                background: '#03a9f4',
+
+            },
+            logo: {
+                color: '#fff',
+                fontFamily: 'anton',
+                textAlign: 'Center'
+            }
+        }*/
+
         return (
             <header>
-                <div>Logo</div>
+                <div className="logo">Logo</div>
                 <input type="text" />
             </header>
         )
