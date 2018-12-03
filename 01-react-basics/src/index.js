@@ -7,7 +7,11 @@ import ReactDOM from 'react-dom';
 
  import Header from './components/header';
 
-
+/**
+ * @function App
+ * @description React App stating Point 
+ * @param Nothing
+ */
 const App = () => {
     /**
      * Creating element inside the root element
