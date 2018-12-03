@@ -52,7 +52,7 @@ import React, { Component } from 'react';
 
 
 /**
- * @function Header
+ * @class Header
  * @description Class Based Header component which return a header
  * @param Nothing
  */
