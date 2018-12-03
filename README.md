@@ -786,5 +786,5 @@ LICENSE
 #### Use of Babel or webpack
 ![Screenshot](./Screenshots/Screenshot1.png?raw=true "Screenshot")
 
-#### New App Structure
+#### News App Structure
 ![Screenshot](./Screenshots/Screenshot2.png?raw=true "Screenshot")
