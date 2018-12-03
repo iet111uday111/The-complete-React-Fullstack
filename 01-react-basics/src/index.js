@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+/**
+ * Components
+ */
+
+ import Header from './components/header';
+
+
 const App = () => {
     /**
      * Creating element inside the root element
@@ -16,10 +23,19 @@ const App = () => {
         /**
          * We can return only thing. So we nned warp all return into single element
          */
-        <div className="test">
-            <h1>Hello World</h1>
-            <div>Hey!!!!</div>
-        </div>
+        // <div className="test">
+        //     <h1>Hello World</h1>
+        //     <div>Hey!!!!</div>
+        // </div>
+
+
+        /**
+         * News App
+         */
+
+         <div>
+             <Header/>
+         </div>
     )
 
     /**
