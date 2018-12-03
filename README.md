@@ -787,4 +787,4 @@ LICENSE
 ![Screenshot](./Screenshots/Screenshot1.png?raw=true "Screenshot")
 
 #### New App Structure
-![Screenshot](./Screenshots/Screenshot1.png?raw=true "Screenshot")
+![Screenshot](./Screenshots/Screenshot2.png?raw=true "Screenshot")
