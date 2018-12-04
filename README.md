@@ -799,3 +799,27 @@ LICENSE
 [This is why we need to bind event handlers in Class Components in React](https://medium.freecodecamp.org/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb)
 
 [Understanding State and Props in ReactJS](https://www.agiliq.com/blog/2018/05/understanding-react-state-and-props/)
+
+[React in Pattern](https://krasimir.gitbooks.io/react-in-patterns/)
+
+[Learn React.js in 5 minutes](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
+
+[A complete React with GraphQL Tutorial](https://www.robinwieruch.de/react-with-graphql-tutorial/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+
+[New Context API, Updated Lifecycle Hooks, New Ref API](https://www.youtube.com/watch?v=yaZzJ37Qb0U)
+
+[Build simple Medium.com on Node.js and React.js](https://codeburst.io/build-simple-medium-com-on-node-js-and-react-js-a278c5192f47)
+
+[How to Use React Context to Build a Multilingual Website Pt.1](https://blog.alexdevero.com/react-context-multilingual-website-pt1/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+
+[How to Use React Context to Build a Multilingual Website Pt.2](https://blog.alexdevero.com/react-context-multilingual-website-pt2/)
+
+[Gooact: React in 160 lines of JavaScript](https://medium.com/@sweetpalma/gooact-react-in-160-lines-of-javascript-44e0742ad60f)
+
+[How to React ⚛️](https://blog.kentcdodds.com/how-to-react-%EF%B8%8F-9e87f48414d2)
+
+[React Native YouTube Replica](https://medium.com/react-native-training/react-native-youtube-replica-f378200d91f0)
+
+[BUILD A REALTIME INSTAGRAM CLONE — PART 1: SETTING UP THE PROJECT AND CREATING THE UI](https://pusher.com/tutorials/instagram-clone-part-1?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+
+[BUILD A REALTIME INSTAGRAM CLONE — PART 2: CONNECTING THE UI WITH GRAPHQL DATA](https://pusher.com/tutorials/instagram-clone-part-2)
