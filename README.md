@@ -788,3 +788,13 @@ LICENSE
 
 #### News App Structure
 ![Screenshot](./Screenshots/Screenshot2.png?raw=true "Screenshot")
+
+
+
+### Imp Articles
+
+[The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
+
+
+[This is why we need to bind event handlers in Class Components in React](https://medium.freecodecamp.org/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb)
+

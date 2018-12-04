@@ -57,27 +57,46 @@ import '../css/styles.css';
  * @param Nothing
  */
 class Header extends Component {
+    // inputChangeHandler(event){
+    //     console.log(event.target.value);
+    // }
+
+    // handleChange(event) {
+    //     this.setState({title: event.target.value})
+    // }
+
+    handleClickEvent = event => {
+        alert("I was clicked");
+      };
+
     render() {
         /**
          * @description Inline styles
          */
-        
-         /*const styles = {
-            header: {
-                background: '#03a9f4',
 
-            },
-            logo: {
-                color: '#fff',
-                fontFamily: 'anton',
-                textAlign: 'Center'
-            }
-        }*/
+        /*const styles = {
+           header: {
+               background: '#03a9f4',
+
+           },
+           logo: {
+               color: '#fff',
+               fontFamily: 'anton',
+               textAlign: 'Center'
+           }
+       }*/
 
         return (
+            /**
+             * @description Event Handling
+             */
             <header>
-                <div className="logo">Logo</div>
-                <input type="text" />
+                <div className="logo" onClick={
+                    () => console.log('Click Event Called')}
+                >Logo</div>
+                <div>
+                    <button onClick={this.handleClickEvent}>Click on me</button>
+                </div>
             </header>
         )
     }
