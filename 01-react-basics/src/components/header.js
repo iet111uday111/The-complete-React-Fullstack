@@ -57,17 +57,49 @@ import '../css/styles.css';
  * @param Nothing
  */
 class Header extends Component {
-    // inputChangeHandler(event){
-    //     console.log(event.target.value);
+
+    /**
+     * State works as an database for react, wheever states change re-render happens(calling render() method)
+     */
+    // state = {
+    //     keyword: 'Hello'
     // }
 
+    /**
+     * @description props are things we are getting from extended class.
+     */
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: 'The keywords are:',
+            keyword: ''
+        }
+    }
+
+    /**
+     * @description Normal Event Handling in react
+     */
+    // inputChangeHandler(event) {
+    //     this.setState({
+    //         keyword: event.target.value
+    //     });
+    // }
+
+    /**
+     * @description Seting the state
+     */
     // handleChange(event) {
     //     this.setState({title: event.target.value})
     // }
 
-    handleClickEvent = event => {
-        alert("I was clicked");
-      };
+    /**
+     * @description Event handling using arrow function
+     */
+    inputChangeHandler = (event) => {
+        this.setState({
+            keyword: event.target.value
+        });
+    };
 
     render() {
         /**
@@ -86,18 +118,36 @@ class Header extends Component {
            }
        }*/
 
+        console.log("render method", this.state.keyword);
+
         return (
             /**
-             * @description Event Handling
+             * @description Event Handling Method 1
+             * it pass bind(this) to tell function to use "this" of class level not method level
+             * 
+             */
+            // <header>
+            //     <div className="logo" onClick={
+            //         () => console.log('Click Event Called')}
+            //     >Logo</div>
+            //     <input type="text" onChange={this.inputChangeHandler.bind(this)} />
+            // </header>
+
+            /**
+             * @description Event Handling Method 1
+             * In this we call method in normal way but in the method we use arrow because it doesn't
+             * have it's own "this"
              */
             <header>
                 <div className="logo" onClick={
                     () => console.log('Click Event Called')}
                 >Logo</div>
-                <div>
-                    <button onClick={this.handleClickEvent}>Click on me</button>
-                </div>
+                <input type="text" onChange={this.inputChangeHandler} />
+                <div>{this.state.title}</div>
+                <div>{this.state.keyword}</div>
             </header>
+
+
         )
     }
 }
