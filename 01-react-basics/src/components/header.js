@@ -71,7 +71,6 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: 'The keywords are:',
             keyword: ''
         }
     }
@@ -117,9 +116,7 @@ class Header extends Component {
                textAlign: 'Center'
            }
        }*/
-
-        console.log("render method", this.state.keyword);
-
+       
         return (
             /**
              * @description Event Handling Method 1
@@ -143,8 +140,6 @@ class Header extends Component {
                     () => console.log('Click Event Called')}
                 >Logo</div>
                 <input type="text" onChange={this.inputChangeHandler} />
-                <div>{this.state.title}</div>
-                <div>{this.state.keyword}</div>
             </header>
 
 
