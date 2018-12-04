@@ -11,7 +11,6 @@ import NewsItem from './news-list-item';
  * Warning: "Each child in an array or iterator should have a unique "key" prop."
  */
 const NewsList = (props) => {
-    console.log(props);
     const items = props.news.map((item) => {
         return (
             <NewsItem key={item.id} item={item} />
