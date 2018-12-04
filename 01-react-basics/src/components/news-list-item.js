@@ -1,5 +1,6 @@
 import React from 'react';
-import { css } from 'glamor';
+// import { css } from 'glamor';
+import classes from '../css/styles.css';
 
 /**
  * @description Showing each news as per loop gives us data
@@ -22,24 +23,26 @@ import { css } from 'glamor';
  * @param  props \
  *  Adding Styling packages for css and styling - react glamour
  */
-const NewsItem = ({item}) => {
-    
-    let newsItem = css({
-        padding:'20px',
-        boxSizzing: 'border-box',
-        borderBottom: '1px solid grey',
-        ':hover': {
-            color: 'red'
-        },
-        cursor: 'pointer',
-        '@media(max-width: 500px)': {
-            background: 'blue'
-        }
-    });
+const NewsItem = ({ item }) => {
+    /**
+     *  @description Adding rules for glamour css
+     */
+    // let newsItem = css({
+    //     padding:'20px',
+    //     boxSizzing: 'border-box',
+    //     borderBottom: '1px solid grey',
+    //     ':hover': {
+    //         color: 'red'
+    //     },
+    //     cursor: 'pointer',
+    //     '@media(max-width: 500px)': {
+    //         background: 'blue'
+    //     }
+    // });
 
-    let newsgrey = css({
-        Background: 'lightgrey'
-    });
+    // let newsgrey = css({
+    //     Background: 'lightgrey'
+    // });
 
     return (
         /**
@@ -53,7 +56,12 @@ const NewsItem = ({item}) => {
         /**
          * Method 2 Adding Classes of glamour
          */
-        <div className={`${newsItem} ${newsgrey}`}>
+        // <div className={`${newsItem} ${newsgrey}`}>
+        //     <h3>{item.title}</h3>
+        //     <div>{item.feed}</div>
+        // </div>
+
+        <div className={classes.newsItem}>
             <h3>{item.title}</h3>
             <div>{item.feed}</div>
         </div>
