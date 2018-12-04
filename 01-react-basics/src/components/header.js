@@ -71,7 +71,9 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            keyword: ''
+            // active: false,
+            // active: 'active',
+            keywords: ''
         }
     }
 
@@ -95,8 +97,11 @@ class Header extends Component {
      * @description Event handling using arrow function
      */
     inputChangeHandler = (event) => {
+        // const value = event.target.value === '' ? false : true;
+        // const value = event.target.value === '' ? 'active' : 'non-active';
         this.setState({
-            keyword: event.target.value
+            // active: value,
+            keywords: event.target.value
         });
     };
 
@@ -116,7 +121,20 @@ class Header extends Component {
                textAlign: 'Center'
            }
        }*/
-       
+        /**
+         * Passing styles method 1
+         */
+        /*const style = {
+            background: 'red'
+        }
+
+        if (this.state.keywords !== '') {
+            style.background = 'blue'
+        } else {
+            style.background = 'red'
+        }
+        */
+
         return (
             /**
              * @description Event Handling Method 1
@@ -133,16 +151,48 @@ class Header extends Component {
             /**
              * @description Event Handling Method 1
              * In this we call method in normal way but in the method we use arrow because it doesn't
-             * have it's own "this"
+             * have it's own "this". Style can e pass in this way also.
              */
+            // <header style={style}>
+            //     <div className="logo" onClick={
+            //         () => console.log('Click Event Called')}
+            //     >Logo</div>
+            //     <input type="text" onChange={this.inputChangeHandler} />
+            // </header>
+
+            /**
+             * @description Passing styles : Method 2
+             */
+
+            // <header style={{ background: `${this.state.active ? 'red' : 'blue    '}` }}>
+            //     <div className="logo" onClick={
+            //         () => console.log('Click Event Called')}
+            //     >Logo</div>
+            //     <input type="text" onChange={this.inputChangeHandler} />
+            // </header>
+
+            /**
+             * @description Adding Class dynamically
+             */
+
+
+            // <header className={this.state.active}>
+            //     <div className="logo" onClick={
+            //         () => console.log('Click Event Called')}
+            //     >Logo</div>
+            //     <input type="text" onChange={this.inputChangeHandler} />
+            // </header>
+
+            /**
+             * @description Adding Styling packages for css and styling - react glamour
+             */
+
             <header>
                 <div className="logo" onClick={
                     () => console.log('Click Event Called')}
                 >Logo</div>
                 <input type="text" onChange={this.inputChangeHandler} />
             </header>
-
-
         )
     }
 }

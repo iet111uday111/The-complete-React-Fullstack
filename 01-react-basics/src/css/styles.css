@@ -20,3 +20,11 @@ header input{
     margin: 20px 0;
 }
 
+.active{
+    background: red;
+}
+
+.non-active{
+    background: blue;
+}
+
