@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../css/styles.css';
-
+// import '../css/styles.css';
+import classes from '../css/styles.css';
 /**
  * @function getYear
  * @description Get the year of current Date
@@ -188,7 +188,7 @@ class Header extends Component {
              */
 
             <header>
-                <div className="logo" onClick={
+                <div className={classes.logo} onClick={
                     () => console.log('Click Event Called')}
                 >Logo</div>
                 <input type="text" onChange={this.inputChangeHandler} />
