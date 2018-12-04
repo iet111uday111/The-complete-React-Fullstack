@@ -2,3 +2,6 @@
 Solution:
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
+2. Git hub link
+
+https://github.com/ferlobo1985/react_fullstack/
