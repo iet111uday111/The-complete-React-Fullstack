@@ -798,3 +798,4 @@ LICENSE
 
 [This is why we need to bind event handlers in Class Components in React](https://medium.freecodecamp.org/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb)
 
+[Understanding State and Props in ReactJS](https://www.agiliq.com/blog/2018/05/understanding-react-state-and-props/)
