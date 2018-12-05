@@ -33,6 +33,7 @@ const App = () => {
               // search:'?profile=true'
             }}>Profile</NavLink><br />
             <NavLink to="/life">Life</NavLink>
+            <NavLink to="/conditional">Conditional</NavLink>
             <hr />
           </header>
           {/* <Route path="/" exact component={Home} />
