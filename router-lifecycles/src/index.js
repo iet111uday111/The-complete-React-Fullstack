@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Link, NavLink, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Link, NavLink, Switch, Redirect } from 'react-router-dom';
 // import { HashRouter, Route, Link } from 'react-router-dom';
 // import { MemoryRouter, Route, Link } from 'react-router-dom';
 
@@ -37,10 +37,12 @@ const App = () => {
           <Route path="/profile" component={Profile} /> */}
 
           <Switch>
+            {/* <Redirect from="/profile" to="/" /> */}
             <Route path="/posts/:id/:username" component={PostItem} />
             <Route path="/posts" component={Posts} />
             <Route path="/profile" component={Profile} />
-            <Route path="/" component={Home} />
+            <Route path="/" exact component={Home} />
+            <Route render={ () => <h3>Oops 404!!!</h3>} />
           </Switch>
 
         </div>
