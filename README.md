@@ -800,6 +800,12 @@ LICENSE
 #### React Lifecycle
 ![Screenshot](./Screenshots/Screenshot6.png?raw=true "Screenshot")
 
+#### React Lifecycle2
+![Screenshot](./Screenshots/Screenshot7.png?raw=true "Screenshot")
+
+#### React Lifecycle3
+![Screenshot](./Screenshots/Screenshot8.png?raw=true "Screenshot")
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
@@ -845,4 +851,13 @@ LICENSE
 
 [Understanding React — Component life-cycle](https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d)
 
+[React’s Component Lifecycles](https://medium.com/mofed/reacts-component-lifecycles-adf0ebc89d23)
+
+[React-Lifecycle-methods-diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+[React Lifecycle Methods- how and when to use them](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1)
+
+[LIFECYCLE HOOKS](https://www.fullstackreact.com/30-days-of-react/day-7/)
+
+[30 Days of react](https://www.fullstackreact.com/30-days-of-react/)
 
