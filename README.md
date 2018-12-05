@@ -866,3 +866,10 @@ LICENSE
 
 [All the Conditional Renderings in React](https://www.robinwieruch.de/conditional-rendering-react/)
 
+[Enum in Javascript](https://www.sohamkamani.com/blog/2017/08/21/enums-in-javascript/)
+
+[REACT COMPONENT PUBLIC APIS](https://jaketrent.com/post/expose-enum-props-in-react/)
+
+[What is the preferred syntax for defining enums in JavaScript?](https://stackoverflow.com/questions/287903/what-is-the-preferred-syntax-for-defining-enums-in-javascript)
+
+

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 
-export default class Life extends Component {
+export default class Life extends PureComponent {
     //  1.Get the default props
 
     // 2. Set the default state if any
