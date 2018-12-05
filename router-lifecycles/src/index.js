@@ -11,6 +11,7 @@ import Home from './components/home';
 import Posts from './components/posts';
 import Profile from './components/profile';
 import PostItem from './components/post-item';
+import Life from './components/lifecycle';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
               // hash: '#fransis',
               // search:'?profile=true'
             }}>Profile</NavLink><br />
+            <NavLink to="/life">Life</NavLink>
             <hr />
           </header>
           {/* <Route path="/" exact component={Home} />
@@ -41,6 +43,7 @@ const App = () => {
             <Route path="/posts/:id/:username" component={PostItem} />
             <Route path="/posts" component={Posts} />
             <Route path="/profile" component={Profile} />
+            <Route path="/life" component={Life} />
             <Route path="/" exact component={Home} />
             <Route render={ () => <h3>Oops 404!!!</h3>} />
           </Switch>
