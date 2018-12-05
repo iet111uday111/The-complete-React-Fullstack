@@ -806,6 +806,9 @@ LICENSE
 #### React Lifecycle3
 ![Screenshot](./Screenshots/Screenshot8.png?raw=true "Screenshot")
 
+#### React Lifecycle CheatSheet
+![Screenshot](./Screenshots/Screenshot8.png?raw=true "Screenshot")
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
