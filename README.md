@@ -829,3 +829,10 @@ LICENSE
 [BUILD A REALTIME INSTAGRAM CLONE — PART 1: SETTING UP THE PROJECT AND CREATING THE UI](https://pusher.com/tutorials/instagram-clone-part-1?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 
 [BUILD A REALTIME INSTAGRAM CLONE — PART 2: CONNECTING THE UI WITH GRAPHQL DATA](https://pusher.com/tutorials/instagram-clone-part-2)
+
+[React Router](https://reacttraining.com/react-router/web/example/basic)
+
+[React Blog - componentDidBlog](https://cdb.reacttraining.com/)
+
+[A Simple React Router v4 Tutorial](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+
