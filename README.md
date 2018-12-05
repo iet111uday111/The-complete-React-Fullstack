@@ -836,3 +836,5 @@ LICENSE
 
 [A Simple React Router v4 Tutorial](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 
+[Routing React Apps: The Complete Guide](https://scotch.io/tutorials/routing-react-apps-the-complete-guide)
+
