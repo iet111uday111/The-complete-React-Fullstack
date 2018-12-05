@@ -789,7 +789,13 @@ LICENSE
 #### News App Structure
 ![Screenshot](./Screenshots/Screenshot2.png?raw=true "Screenshot")
 
+#### Multi page request-response flow
+![Screenshot](./Screenshots/Screenshot3.png?raw=true "Screenshot")
 
+![Screenshot](./Screenshots/Screenshot4.png?raw=true "Screenshot")
+
+#### React Router
+![Screenshot](./Screenshots/Screenshot5.png?raw=true "Screenshot")
 
 ### Imp Articles
 
