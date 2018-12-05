@@ -872,4 +872,14 @@ LICENSE
 
 [What is the preferred syntax for defining enums in JavaScript?](https://stackoverflow.com/questions/287903/what-is-the-preferred-syntax-for-defining-enums-in-javascript)
 
+[Pure Component](https://www.fullstackreact.com/30-days-of-react/day-11/)
+
+[React JS: what is a PureComponent?](https://lucybain.com/blog/2018/react-js-pure-component/)
+
+[Stateless Component vs Pure Component](https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b)
+
+[When to use component or Pure Component](https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b)
+
+
+
 
