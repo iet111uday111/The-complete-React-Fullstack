@@ -842,3 +842,7 @@ LICENSE
 [Routing React Apps: The Complete Guide](https://scotch.io/tutorials/routing-react-apps-the-complete-guide)
 
 [ReactJs component lifecycle methods — A deep dive](https://hackernoon.com/reactjs-component-lifecycle-methods-a-deep-dive-38275d9d13c0)
+
+[Understanding React — Component life-cycle](https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d)
+
+
