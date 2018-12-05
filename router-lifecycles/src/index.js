@@ -12,6 +12,8 @@ import Posts from './components/posts';
 import Profile from './components/profile';
 import PostItem from './components/post-item';
 import Life from './components/lifecycle';
+import Conditional from './components/conditional';
+
 
 const App = () => {
   return (
@@ -44,6 +46,7 @@ const App = () => {
             <Route path="/posts" component={Posts} />
             <Route path="/profile" component={Profile} />
             <Route path="/life" component={Life} />
+            <Route path="/conditional" component={Conditional} />
             <Route path="/" exact component={Home} />
             <Route render={ () => <h3>Oops 404!!!</h3>} />
           </Switch>
