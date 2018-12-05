@@ -13,6 +13,7 @@ import Profile from './components/profile';
 import PostItem from './components/post-item';
 import Life from './components/lifecycle';
 import Conditional from './components/conditional';
+import User from './components/user';
 
 
 const App = () => {
@@ -32,8 +33,9 @@ const App = () => {
               // hash: '#fransis',
               // search:'?profile=true'
             }}>Profile</NavLink><br />
-            <NavLink to="/life">Life</NavLink>
-            <NavLink to="/conditional">Conditional</NavLink>
+            <NavLink to="/life">Life</NavLink><br />
+            <NavLink to="/conditional">Conditional</NavLink><br />
+            <NavLink to="/user">User</NavLink>
             <hr />
           </header>
           {/* <Route path="/" exact component={Home} />
@@ -48,6 +50,7 @@ const App = () => {
             <Route path="/profile" component={Profile} />
             <Route path="/life" component={Life} />
             <Route path="/conditional" component={Conditional} />
+            <Route path="/user" component={User} />            
             <Route path="/" exact component={Home} />
             <Route render={ () => <h3>Oops 404!!!</h3>} />
           </Switch>

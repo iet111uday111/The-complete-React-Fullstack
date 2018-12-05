@@ -880,6 +880,23 @@ LICENSE
 
 [When to use component or Pure Component](https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b)
 
+[Higher-Order Components](https://reactjs.org/docs/higher-order-components.html)
+
+[Understanding React Higher-Order Components by Example](https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006)
+
+[React Higher Order Components in depth](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e)
+
+[Introduction to higher order components (HOC) in React](https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa)
+
+[A Gentle Introduction to HOC in React: Learn by Example](https://code.tutsplus.com/tutorials/a-gentle-introduction-to-hoc-in-react-learn-by-example--cms-30185)
+
+[A Quick Intro to React's Higher-Order Components](https://alligator.io/react/higher-order-components/)
+
+[What are Higher-Order Components in React?](https://css-tricks.com/what-are-higher-order-components-in-react/)
+
+[Higher-Order Components: The Ultimate Guide](https://medium.freecodecamp.org/higher-order-components-the-ultimate-guide-b453a68bb851)
+
+
 
 
 
