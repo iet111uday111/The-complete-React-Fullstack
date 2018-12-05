@@ -797,6 +797,9 @@ LICENSE
 #### React Router
 ![Screenshot](./Screenshots/Screenshot5.png?raw=true "Screenshot")
 
+#### React Lifecycle
+![Screenshot](./Screenshots/Screenshot6.png?raw=true "Screenshot")
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
@@ -838,3 +841,4 @@ LICENSE
 
 [Routing React Apps: The Complete Guide](https://scotch.io/tutorials/routing-react-apps-the-complete-guide)
 
+[ReactJs component lifecycle methods — A deep dive](https://hackernoon.com/reactjs-component-lifecycle-methods-a-deep-dive-38275d9d13c0)
