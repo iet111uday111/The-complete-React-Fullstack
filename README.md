@@ -896,6 +896,11 @@ LICENSE
 
 [Higher-Order Components: The Ultimate Guide](https://medium.freecodecamp.org/higher-order-components-the-ultimate-guide-b453a68bb851)
 
+[Advanced route transitions with React Transition Group and Popmotion [Part 1]](https://medium.com/@davidbismut/advanced-route-transitions-with-react-transition-group-and-popmotion-part-1-145e7b2fe8f2)
+
+[Advanced route transitions with React Transition Group and Popmotion [Part 2]](https://medium.com/@davidbismut/advanced-route-transitions-with-react-transition-group-and-popmotion-part-2-5a6253ca3bf2)
+
+
 
 
 
