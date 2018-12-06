@@ -902,7 +902,11 @@ LICENSE
 
 [React-Move](https://react-move.js.org/#/)
 
+[Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
+[Validating React Component Props with prop-types](https://blog.logrocket.com/validating-react-component-props-with-prop-types-ef14b29963fc)
+
+[PropTypes ](https://www.fullstackreact.com/p/appendix-a-proptypes/)
 
 
 
