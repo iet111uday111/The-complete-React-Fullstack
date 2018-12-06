@@ -908,6 +908,10 @@ LICENSE
 
 [PropTypes ](https://www.fullstackreact.com/p/appendix-a-proptypes/)
 
+[Refs in React : All you need to know !](https://hackernoon.com/refs-in-react-all-you-need-to-know-fb9c9e2aeb81)
+
+
+[Introduction to Refs in React 16.3](https://medium.com/@sgroff04/introduction-to-refs-in-react-16-3-d94505b45a73)
 
 
 
