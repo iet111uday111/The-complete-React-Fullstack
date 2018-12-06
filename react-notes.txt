@@ -5,3 +5,17 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 2. Git hub link
 
 https://github.com/ferlobo1985/react_fullstack/
+
+3. Remove a directory from git remote
+
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin <your-git-branch> (typically 'master', but not always)
+Remove directory from git but NOT local
+As mentioned in the comments, what you usually want to do is remove this directory from git but not delete it entirely from the filesystem (local)
+
+In that case use:
+
+git rm -r --cached myFolder
+
+
