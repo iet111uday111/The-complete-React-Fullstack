@@ -65,3 +65,7 @@ git rm -r --cached myFolder
 | Accessibility              | :wheelchair: `:wheelchair:`                   |
 | Move/rename repository     | :truck: `:truck:`                             |
 | Other                      | [Be creative](http://www.emoji-cheat-sheet.com/)  |
+
+
+5. 
+https://github.com/dannyfritz/commit-message-emoji
