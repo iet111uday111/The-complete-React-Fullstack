@@ -67,5 +67,4 @@ git rm -r --cached myFolder
 | Other                      | [Be creative](http://www.emoji-cheat-sheet.com/)  |
 
 
-5. 
-https://github.com/dannyfritz/commit-message-emoji
+5. https://github.com/dannyfritz/commit-message-emoji
