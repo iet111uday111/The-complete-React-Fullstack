@@ -26,7 +26,7 @@ export default class NewsSlider extends Component{
         
         return (
             <div>
-                <SliderTemplate data={this.state.news}/>
+                <SliderTemplate data={this.state.news} type="featured"/>
             </div>
         )
     }
