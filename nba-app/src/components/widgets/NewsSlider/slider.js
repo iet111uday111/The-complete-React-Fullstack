@@ -12,7 +12,6 @@ export default class NewsSlider extends Component{
     componentWillMount(){
         axios.get(`${URL}/articles?_start=${this.props.start}&_end=${this.props.amount}`)
             .then((response) =>{
-                console.log(response.data);
                 this.setState({
                     news: response.data
                 })
@@ -23,8 +22,6 @@ export default class NewsSlider extends Component{
     }
 
     render(){
-        console.log(this.state.news);
-        
         return (
             <div>
                 <SliderTemplate data={this.state.news} type={this.props.type} settings={this.props.settings}/>
