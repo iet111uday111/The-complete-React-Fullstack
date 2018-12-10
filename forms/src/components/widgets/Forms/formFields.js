@@ -1,7 +1,10 @@
 import React from 'react';
 
 const FormFields = (props) => {
-
+    /**
+     * Converting the rules into an Array
+     * with Id and Setting 
+     */
     const renderFields = () => {
         const formArray = [];
 
@@ -22,19 +25,32 @@ const FormFields = (props) => {
 
     }
 
+    /**
+     * Showing Label or not
+     * @param show 
+     * @param label 
+     */
     const showLabel = (show, label) => {
         return show ? 
           <label>{label}</label>
           : null
     }
 
+    /**
+     * Passing the new state to user Component
+     * @param event 
+     * @param id 
+     */
     const changeHandler = (event, id) => {
         const newState = props.formData;
         newState[id].value = event.target.value;
-        console.log(newState);
-        
+        props.change(newState);
     }
- 
+    
+    /**
+     * Creating dynamic template with type of form field
+     * @param data 
+     */
     const renderTemplates = (data) => {
         let formTemplate = '';
         let values = data.settings;

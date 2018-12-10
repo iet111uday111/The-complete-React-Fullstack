@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import FormFields from './widgets/Forms/formFields';
 
 class User extends Component {
-
+/**
+ * Rule for Form Fields
+ */
     state = {
         formData: {
             name: {
@@ -32,8 +34,30 @@ class User extends Component {
         }
     }
 
+    /**
+     * Updating the state of the form 
+     */
     updateForm = (newState) => {
-        console.log(newState);
+        this.setState({
+            formData: newState
+        })
+    }
+
+    /**
+     * Geting the values of the form data 
+     * and Can be make Network Call to API
+     */
+    submitForm = (event) => {
+        event.preventDefault();
+        let dataToSubmit = {};
+        
+        for(let key in this.state.formData){
+            dataToSubmit[key] = this.state.formData[key].value
+        }
+
+        /**
+         * API Can Be make with dataToSubmit
+         */
         
     }
 
