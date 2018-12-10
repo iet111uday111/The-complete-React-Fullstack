@@ -20,6 +20,6 @@ const firebaseDB = firebase.database();
 //     googleAuth
 // }
 
-firebaseDB.ref().on('value',(snapshot)=> {
-    console.log(snapshot.val());
+firebaseDB.ref().on('child_added',(snapshot)=> {
+    console.log(snapshot.key,snapshot.val());
 })
