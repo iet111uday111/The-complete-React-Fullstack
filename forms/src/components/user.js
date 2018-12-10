@@ -30,7 +30,33 @@ class User extends Component {
                     placeholder: 'Enter your Lastname',
                     
                 }
+            },
+            message: {
+                element: 'textarea',
+                value: '',
+                label:true,
+                labelText: 'Message',
+                config: {
+                    name: 'message',
+                    rows:4,
+                    cols:36                
+                }
+            },
+            age:{
+                element:'select',
+                value:'',
+                label:true,
+                labelText:'Age',
+                config:{
+                    name:'age_input',
+                    options:[
+                        {val:'1',text:'10-20'},
+                        {val:'2',text:'20-30'},
+                        {val:'3',text:'+30'}
+                    ]
+                }
             }
+
         }
     }
 
@@ -58,6 +84,9 @@ class User extends Component {
         /**
          * API Can Be make with dataToSubmit
          */
+
+         console.log(dataToSubmit);
+         
         
     }
 
