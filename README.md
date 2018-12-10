@@ -913,6 +913,21 @@ LICENSE
 
 [Introduction to Refs in React 16.3](https://medium.com/@sgroff04/introduction-to-refs-in-react-16-3-d94505b45a73)
 
+[React-form](https://reactjs.org/docs/forms.html)
+
+[An imperative guide to forms in React](https://blog.logrocket.com/an-imperative-guide-to-forms-in-react-927d9670170a)
+
+[Building forms using React — everything you need to know](https://www.codementor.io/blizzerand/building-forms-using-react-everything-you-need-to-know-iz3eyoq4y)
+
+[45 Form Example](https://react.rocks/tag/Form)
+
+[React Material](https://react.rocks/)
+
+[How to Work with Forms, Inputs and Events in React](https://medium.com/capital-one-tech/how-to-work-with-forms-inputs-and-events-in-react-c337171b923b)
+
+[The complete guide to Forms in React](https://medium.com/@agoiabeladeyemi/the-complete-guide-to-forms-in-react-d2ba93f32825)
+
+[Working With Forms in React.js Using The Basic Toolkit](https://dzone.com/articles/working-with-forms-in-reactjs-using-the-basic-tool)
 
 
 
