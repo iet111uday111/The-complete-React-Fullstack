@@ -20,8 +20,11 @@ const firebaseDB = firebase.database();
 //     googleAuth
 // }
 
-firebaseDB.ref('eyes').set('black').then(() => {
-    console.log('Data Saved');
+firebaseDB.ref().update({
+    name: 'Steve',
+    'cars/color': 'Black'
+}).then(() => {
+    console.log('Data Updated');
 }).catch((err) => {
     console.log(err);
 })
