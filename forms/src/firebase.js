@@ -20,8 +20,6 @@ const firebaseDB = firebase.database();
 //     googleAuth
 // }
 
-firebaseDB.ref().once('value').then((snapshot) => {
+firebaseDB.ref().on('value',(snapshot)=> {
     console.log(snapshot.val());
-}).catch((err) => {
-    console.log(err);
 })
