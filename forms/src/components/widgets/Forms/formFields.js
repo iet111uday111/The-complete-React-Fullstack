@@ -1,19 +1,19 @@
 import React from 'react';
 
-const  FormFields = (props) => {
+const FormFields = (props) => {
 
     const renderFields = () => {
         const formArray = [];
 
-        for (let elementName in props.formData) {        
+        for (let elementName in props.formData) {
             formArray.push({
                 id: elementName,
                 settings: props.formData[elementName]
             })
         }
 
-        return formArray.map((item,i) =>{
-            return(
+        return formArray.map((item, i) => {
+            return (
                 <div key={i} className="form_element">
                     {renderTemplates(item)}
                 </div>
@@ -22,17 +22,29 @@ const  FormFields = (props) => {
 
     }
 
+    const showLabel = (show, label) => {
+        return show ? 
+          <label>{label}</label>
+          : null
+    }
+
     const renderTemplates = (data) => {
         let formTemplate = '';
         let values = data.settings;
 
-        switch(values.element){
-            case'input': 
-                <div>
-                    input
-                </div>
+        switch (values.element) {
+            case 'input':
+                formTemplate = (
+                    <div>
+                        {showLabel(values.label, values.labelText)}
+                        <input 
+                            {...values.config}
+                            value={values.value}/>
+                    </div>
+                )
+
                 break;
-            default: 
+            default:
 
                 formTemplate = '';
         }
