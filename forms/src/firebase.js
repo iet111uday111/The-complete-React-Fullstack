@@ -11,7 +11,7 @@ const config = {
 
 firebase.initializeApp(config);
 
-// const firebaseDB = firebase.database();
+const firebaseDB = firebase.database();
 // const googleAuth = new firebase.auth.GoogleAuthProvider();
 
 // export {
@@ -20,4 +20,8 @@ firebase.initializeApp(config);
 //     googleAuth
 // }
 
-firebase.database().ref().set('It Works');
+firebaseDB.ref('eyes').set('black').then(() => {
+    console.log('Data Saved');
+}).catch((err) => {
+    console.log(err);
+})
