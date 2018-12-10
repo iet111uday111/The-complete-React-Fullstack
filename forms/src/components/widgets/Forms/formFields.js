@@ -28,6 +28,13 @@ const FormFields = (props) => {
           : null
     }
 
+    const changeHandler = (event, id) => {
+        const newState = props.formData;
+        newState[id].value = event.target.value;
+        console.log(newState);
+        
+    }
+ 
     const renderTemplates = (data) => {
         let formTemplate = '';
         let values = data.settings;
@@ -39,7 +46,11 @@ const FormFields = (props) => {
                         {showLabel(values.label, values.labelText)}
                         <input 
                             {...values.config}
-                            value={values.value}/>
+                            value={values.value}
+                            onChange={
+                                (event) => changeHandler(event, data.id)
+                            }    
+                        />
                     </div>
                 )
 

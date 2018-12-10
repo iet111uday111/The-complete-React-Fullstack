@@ -929,5 +929,10 @@ LICENSE
 
 [Working With Forms in React.js Using The Basic Toolkit](https://dzone.com/articles/working-with-forms-in-reactjs-using-the-basic-tool)
 
+[Advanced forms in React made easy.](https://medium.com/@kettanaito/advanced-forms-in-react-made-easy-92a6e208f017)
+
+[Better Understanding Forms in React](https://medium.com/javascript-inside/better-understanding-forms-in-react-a85d889773ce)
+
+
 
 
