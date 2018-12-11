@@ -45,7 +45,27 @@ export default class SignIn extends Component {
     }
 
     updateForm = (element) => {
-        console.log(element);
+        const newFormData = {
+            ...this.state.formdata
+        }
+
+        const newElement = {
+            ...newFormData[element.id]
+        }
+
+        
+        newElement.value = element.event.target.value;
+
+        newFormData[element.id] = newElement;
+        
+        
+        this.setState({
+            formdata: newFormData
+        });
+
+
+
+        
     }
 
     showButton = () => {
