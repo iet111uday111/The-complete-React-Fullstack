@@ -38,19 +38,8 @@ class NewsList extends Component {
                     start,
                     end
                 });
-                console.log(articles);
-                
             })
             .catch((err) => console.log(err));
-
-        // axios.get(`${URL}/articles?_start=${start}&_end=${end}`)
-        // .then( response => {
-        //     this.setState({
-        //         items:[...this.state.items,...response.data],
-        //         start,
-        //         end
-        //     })
-        // })
     }
 
     loadMore = () => {
