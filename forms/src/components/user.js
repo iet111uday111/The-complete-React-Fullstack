@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormFields from './widgets/Forms/formFields';
-
+import { firebaseDB } from '../firebase';
 class User extends Component {
 /**
  * Rule for Form Fields
@@ -109,7 +109,11 @@ class User extends Component {
          * API Can Be make with dataToSubmit
          */
         if(formIsValid){
-            console.log(dataToSubmit);
+            firebaseDB.ref('users').push(dataToSubmit)
+                .then(() => {
+                    console.log('New User Added');
+                }).catch((err) => console.log(err));
+                
         }
          
          

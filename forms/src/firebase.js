@@ -12,14 +12,10 @@ const config = {
 firebase.initializeApp(config);
 
 const firebaseDB = firebase.database();
-// const googleAuth = new firebase.auth.GoogleAuthProvider();
+const googleAuth = new firebase.auth.GoogleAuthProvider();
 
-// export {
-//     firebase,
-//     firebaseDB,
-//     googleAuth
-// }
-
-firebaseDB.ref().on('child_added',(snapshot)=> {
-    console.log(snapshot.key,snapshot.val());
-})
+export {
+    firebase,
+    firebaseDB,
+    googleAuth
+}
