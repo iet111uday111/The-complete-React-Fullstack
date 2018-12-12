@@ -7,13 +7,13 @@ import { CURRENT_YEAR } from '../../config'
 
 const Footer = () => (
     <div className={style.footer}>
-        <Link to="/" className={style.logo}>
+        {/* <Link to="/" className={style.logo}>
             <img alt="nba logo" src="/images/nba_logo.png" />
         </Link>
 
         <div className={style.right}>
             @NBA {CURRENT_YEAR} All right reserved.
-        </div>
+        </div> */}
 
     </div>
 )

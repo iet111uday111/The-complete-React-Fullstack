@@ -27,9 +27,7 @@ export default class Layout extends Component {
                     onHideNav={() => this.toggleSidenav(false)}
                     onOpenNav={() => this.toggleSidenav(true)}
                 />
-                <div style={{
-                    minHeight: "calc(250vh - 70px)"
-                }}>{this.props.children}</div>
+                {this.props.children}
                 <Footer />
             </div>
         )
