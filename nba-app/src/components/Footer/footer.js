@@ -1,9 +1,9 @@
 import React from 'react'
 
 import style from './footer.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-import { CURRENT_YEAR } from '../../config'
+// import { CURRENT_YEAR } from '../../config'
 
 const Footer = () => (
     <div className={style.footer}>
