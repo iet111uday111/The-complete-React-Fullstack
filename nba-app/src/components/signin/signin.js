@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import styles from './SignIn.css';
+import styles from './signin.css';
 import { firebase } from '../../firebase';
 
-import FormField from '../widgets/FormsFields/formFields';
+import FormField from '../widgets/FormFields/formFields';
 
 class SignIn extends Component {
 
@@ -143,6 +143,7 @@ class SignIn extends Component {
 
 
     }
+
 
     submitButton = () => (
         this.state.loading ? 

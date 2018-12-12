@@ -1,5 +1,5 @@
 import React from 'react';
-import VideosList from '../../../widgets/VideosList/VideosList';
+import VideosList from '../../../widgets/VideosList/videosList';
 
 const VideosMain = () => (
     <VideosList

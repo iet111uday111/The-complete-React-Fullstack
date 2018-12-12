@@ -12,22 +12,21 @@ const config = {
 firebase.initializeApp(config);
 
 const firebaseDB = firebase.database();
-
 const firebaseArticles = firebaseDB.ref('articles');
 const firebaseTeams = firebaseDB.ref('teams');
 const firebaseVideos = firebaseDB.ref('videos');
 
 const firebaseLooper = (snapshot) => {
     const data = [];
-    snapshot.forEach((childsnapshot) => {
+    snapshot.forEach((childSnapshot)=>{
         data.push({
-            ...childsnapshot.val(),
-            id: childsnapshot.key
+            ...childSnapshot.val(),
+            id:childSnapshot.key
         })
     });
-
     return data;
 }
+
 
 export {
     firebase,

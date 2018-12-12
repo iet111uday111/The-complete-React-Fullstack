@@ -1,21 +1,20 @@
-import React from 'react'
+import React from 'react';
+import styles from './footer.css';
+import { Link } from 'react-router-dom';
 
-import style from './footer.css';
-// import { Link } from 'react-router-dom';
+import { CURRENT_YEAR } from '../../config';
 
-// import { CURRENT_YEAR } from '../../config'
 
-const Footer = () => (
-    <div className={style.footer}>
-        {/* <Link to="/" className={style.logo}>
-            <img alt="nba logo" src="/images/nba_logo.png" />
-        </Link>
-
-        <div className={style.right}>
-            @NBA {CURRENT_YEAR} All right reserved.
-        </div> */}
-
-    </div>
+const footer = () => (
+        <div className={styles.footer}>
+            <Link to="/" className={styles.logo}>
+                <img alt="nba logo" src="/images/nba_logo.png"/>
+            </Link>
+            <div className={styles.right}>
+                @NBA {CURRENT_YEAR} All rights reserved.
+            </div>
+        </div>
 )
 
-export default Footer;
+
+export default footer;

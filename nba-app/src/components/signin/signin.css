@@ -1,18 +1,19 @@
-.postContainer {
-    width:90%;
+
+.logContainer {
+    width:80%;
     margin:0 auto;
     height:100vh;
     padding-top:50px;
 }
 
-.postContainer h2 {
+.logContainer h2 {
     font-weight: 300;
     text-align: center;
     font-size: 35px;
 }
 
 
-.postContainer input {
+.logContainer input {
     font-size: 17px;
     width: 100%;
     margin-top: 10px;
@@ -22,15 +23,10 @@
 }
 
 
-.postContainer button {
+.logContainer button {
     background: #03a9f4;
     font-size: 13px;
     padding:10px;
     color:#fff;
-    margin-top: 10px;
-}
-
-.postContainer select {
-    font-size: 20px;
     margin-top: 10px;
 }

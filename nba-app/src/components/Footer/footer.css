@@ -1,10 +1,10 @@
+
 .footer {
     margin-top: 20px;
     background: #242424;
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .logo img {

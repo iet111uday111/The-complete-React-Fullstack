@@ -16,9 +16,8 @@ const CardInfo = (props) =>{
     }
 
     const formatDate = (date) => {
-        return moment(date).format('MM-DD-YYYY');
+        return moment(date).format(' MM-DD-YYYY');
     }
-
 
     return(
         <div className={styles.cardNfo}>

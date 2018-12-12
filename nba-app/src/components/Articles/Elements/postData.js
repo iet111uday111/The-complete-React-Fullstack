@@ -2,11 +2,9 @@ import React from 'react';
 import styles from '../articles.css';
 import moment from 'moment';
 
-
 const formatDate = (date) => {
-    return moment(date).format('MM-DD-YYYY');
+    return moment(date).format(' MM-DD-YYYY');
 }
-
 
 const postData = (props) => (
     <div className={styles.articlePostData}>
@@ -19,6 +17,6 @@ const postData = (props) => (
             <span>{props.data.author}</span>
         </div>
     </div>
-)
+) 
 
 export default postData;

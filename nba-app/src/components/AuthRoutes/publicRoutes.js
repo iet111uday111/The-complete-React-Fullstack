@@ -7,8 +7,6 @@ const PublicRoutes = ({
     component: Comp,
     ...rest
 }) => {
-  console.log(rest);
-  
     return <Route {...rest} component={(props)=>(
         rest.restricted ? 
             ( user ? 
@@ -17,7 +15,7 @@ const PublicRoutes = ({
                 <Comp {...props} user={user}/>
             )
         :
-          <Comp {...props} user={user}/>
+         <Comp {...props} user={user}/>
     )}/> 
 }
 
