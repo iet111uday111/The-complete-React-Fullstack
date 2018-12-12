@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 
-// import { Editor } from 'react-draft-wysiwyg';
-// import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
-// import { stateToHTML } from 'draft-js-export-html';
+import { Editor } from 'react-draft-wysiwyg';
+import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
+import { stateToHTML } from 'draft-js-export-html';
 
 // import Uploader from '../widgets/FileUploader/fileUploader';
 import FormField from '../widgets/FormsFields/formFields';
 import styles from './dashboard.css';
-import { firebaseTeams, firebaseArticles, firebase } from '../../firebase';
+// import { firebaseTeams, firebaseArticles, firebase } from '../../firebase';
 
 
 export default class Dashboard extends Component {
 
   state = {
+    editorState: EditorState.createEmpty(),
     PostError: '',
     loading: false,
     formdata: {
@@ -92,10 +93,10 @@ export default class Dashboard extends Component {
   )
 
   showError = () => (
-    this.state.PostError !== '' ? 
-        <div className={styles.error}>{this.state.PostError}</div>
-    : ''
-)
+    this.state.PostError !== '' ?
+      <div className={styles.error}>{this.state.PostError}</div>
+      : ''
+  )
 
 
   submitForm = (event) => {
@@ -110,8 +111,6 @@ export default class Dashboard extends Component {
       formIsValid = this.state.formdata[key].valid && formIsValid;
     }
 
-    console.log(dataToSubmit);
-    
     if (formIsValid) {
       console.log('Submit Post');
     } else {
@@ -119,6 +118,17 @@ export default class Dashboard extends Component {
         PostError: 'Something went wrong'
       })
     }
+  }
+
+  onEditorStateChange = (editorState) => {
+    let contentState = editorState.getCurrentContent();
+    let rawState = convertToRaw(contentState);
+    let html = stateToHTML(contentState);
+    console.log(html);
+    
+    this.setState({
+          editorState
+      })
   }
 
 
@@ -139,6 +149,13 @@ export default class Dashboard extends Component {
             id={'tittle'}
             formdata={this.state.formdata.tittle}
             change={(element) => this.updateForm(element)}
+          />
+
+          <Editor
+            editorState={this.state.editorState}
+            wrapperClassName="myEditor-wrapper"
+            editorClassName="myEditor-editor"
+            onEditorStateChange={this.onEditorStateChange}
           />
 
           {this.submitButton()}

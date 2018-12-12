@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { firebase, firebaseDB , firebaseLooper, firebaseTeams } from '../../../../firebase';
+import { firebaseDB , firebaseLooper, firebaseTeams } from '../../../../firebase';
 
 import styles from '../../articles.css';
 import Header from './header';
