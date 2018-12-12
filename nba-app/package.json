@@ -51,6 +51,7 @@
     "react-simple-sidenav": "^0.1.6",
     "react-slick": "^0.15.4",
     "react-transition-group": "^2.2.1",
+    "react-firebase-file-uploader": "^2.4.1",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
