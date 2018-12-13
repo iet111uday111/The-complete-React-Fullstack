@@ -7,7 +7,7 @@ const App = () => (
     <div>Hello</div>
 )
 
-const createStoreWithMiddleware = applyMiddleware(createStore)
+const createStoreWithMiddleware = applyMiddleware()(createStore)
 
 ReactDOM.render(
     <Provider store={createStoreWithMiddleware()}>
