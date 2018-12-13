@@ -849,9 +849,6 @@ LICENSE
 #### ARTIST INFO APP - SEARCH ARTIST SCREEN 
 ![Screenshot](./Screenshots/Screenshot21.png?raw=true "Screenshot")
 
-#### ARTIST INFO APP - SEARCH ARTIST SCREEN 
-![Screenshot](./Screenshots/Screenshot21.png?raw=true "Screenshot")
-
 #### ARTIST INFO APP - ARTIST DETAIL SCREEN
 ![Screenshot](./Screenshots/Screenshot22.png?raw=true "Screenshot")
 
