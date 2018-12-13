@@ -831,6 +831,20 @@ LICENSE
 #### NBA APPLICATION - DASHBOARD SCREEN
 ![Screenshot](./Screenshots/Screenshot15.png?raw=true "Screenshot")
 
+#### Redux Flow 1
+![Screenshot](./Screenshots/Screenshot16.png?raw=true "Screenshot")
+
+#### Redux Flow 2
+![Screenshot](./Screenshots/Screenshot17.png?raw=true "Screenshot")
+
+#### Middleware
+![Screenshot](./Screenshots/Screenshot18.png?raw=true "Screenshot")
+
+#### Complete Flow with Action Creator and Reducers
+![Screenshot](./Screenshots/Screenshot19.png?raw=true "Screenshot")
+
+#### React Lifecycle CheatSheet
+![Screenshot](./Screenshots/Screenshot19.png?raw=true "Screenshot")
 
 
 
