@@ -938,6 +938,20 @@ LICENSE
 
 [Introduction to Refs in React 16.3](https://medium.com/@sgroff04/introduction-to-refs-in-react-16-3-d94505b45a73)
 
+[How we Redux — Part 1 (Introduction)](https://medium.com/front-end-developers/how-we-redux-part-1-introduction-18a24c3b7efe)
+
+[How we Redux — Part 2 (Setup)](https://medium.com/front-end-developers/how-we-redux-part-2-setup-c6aa726fa79e)
+
+[How we Redux — Part 3 (Domain)](https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec)
+
+[How we Redux — Part 4 (Reducers and Stores)](https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a)
+
+[How we Redux — Part 5 (Components)](https://medium.com/modern-user-interfaces/how-we-redux-part-5-components-bddd737022e1)
+
+[Dear Templating — Sincerely, JSX](https://medium.com/modern-user-interfaces/dear-templating-sincerely-jsx-part-1-1df99c599001)
+
+
+
 
 
 
