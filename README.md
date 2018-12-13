@@ -843,9 +843,6 @@ LICENSE
 #### Complete Flow with Action Creator and Reducers
 ![Screenshot](./Screenshots/Screenshot19.png?raw=true "Screenshot")
 
-#### React Lifecycle CheatSheet
-![Screenshot](./Screenshots/Screenshot19.png?raw=true "Screenshot")
-
 
 
 ### Imp Articles
