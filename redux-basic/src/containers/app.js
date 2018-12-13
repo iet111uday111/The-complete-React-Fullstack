@@ -1,32 +1,23 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-import { moviesList, directorsList } from './actions';
+import { moviesList, directorsList } from '../actions';
 import { bindActionCreators } from 'redux';
+import MoviesList from '../components/moviesList';
 
 class App extends Component {
 
     componentWillMount() {
-        console.log(this.props.moviesList());
-        console.log(this.props.directorsList());
+        this.props.moviesList();
+        this.props.directorsList();
     }
 
-    renderMovies = (movies) =>(
-        movies ? 
-        movies.map((item) => (
-            <div>
-                    {item.name}
-            </div>
-        ))
-        : null
-    )
+    
 
     render() {
-        console.log(this.props);
-
         return (
             <div>
-                {this.renderMovies(this.props.data.movies)}
-      </div>
+                    <MoviesList {...this.props}/>
+            </div>
         )
     }
 }
