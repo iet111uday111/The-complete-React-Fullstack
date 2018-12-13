@@ -843,7 +843,17 @@ LICENSE
 #### Complete Flow with Action Creator and Reducers
 ![Screenshot](./Screenshots/Screenshot19.png?raw=true "Screenshot")
 
+#### ARTIST INFO APP - HOME SCREEN
+![Screenshot](./Screenshots/Screenshot20.png?raw=true "Screenshot")
 
+#### ARTIST INFO APP - SEARCH ARTIST SCREEN 
+![Screenshot](./Screenshots/Screenshot21.png?raw=true "Screenshot")
+
+#### ARTIST INFO APP - SEARCH ARTIST SCREEN 
+![Screenshot](./Screenshots/Screenshot21.png?raw=true "Screenshot")
+
+#### ARTIST INFO APP - ARTIST DETAIL SCREEN
+![Screenshot](./Screenshots/Screenshot22.png?raw=true "Screenshot")
 
 ### Imp Articles
 
