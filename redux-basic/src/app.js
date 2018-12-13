@@ -1,25 +1,27 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-import * as actions from './actions';
+import { moviesList, directorsList } from './actions';
+import { bindActionCreators } from 'redux';
 
 class App extends Component {
 
     componentWillMount() {
-        this.props.moviesList();
+        console.log(this.props.moviesList());
+        console.log(this.props.directorsList());
     }
 
     renderMovies = (movies) =>(
         movies ? 
-        movies.map((item,i) => {
-            <div key={i}>
+        movies.map((item) => (
+            <div>
                     {item.name}
             </div>
-        })
+        ))
         : null
     )
 
     render() {
-        console.log(this.props.data.movies);
+        console.log(this.props);
 
         return (
             <div>
@@ -28,12 +30,40 @@ class App extends Component {
         )
     }
 }
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
     return {
         data: state.movies
     }
 }
 
-export default connect(mapStateToProps, actions)(App);
+/**
+ * Dispatching an action using bindActionCreators
+ * @param  dispatch 
+ */
+const mapDispatchToProps = (dispatch) => {
+   return bindActionCreators({
+    moviesList,
+    directorsList
+   },dispatch)
+}
+
+
+
+/**
+ * Dispatching an action
+ * @param  dispatch 
+ */
+// const mapDispatchToProps = (dispatch) => {
+//     return{
+//         getMovies: () =>{
+//             dispatch(moviesList())
+//         },
+//         getDirectors: () =>{
+//             dispatch(directorsList())
+//         } 
+//     }
+// }
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 

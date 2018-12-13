@@ -10,3 +10,14 @@ export function moviesList(){
         ]
     }
 }
+
+export function directorsList(){
+    return {
+        type: 'DIRECTORS_LIST',
+        payload: [
+            { id: 1, name:"Martin Scorsese"},
+            { id: 1, name:"Steven Spielberg"},
+            { id: 1, name:"Christopher Nolan"}
+        ]
+    }
+}
