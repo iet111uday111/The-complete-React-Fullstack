@@ -11,9 +11,24 @@ let jsonData = {
 
 let html = fs.readFileSync('./index.html');
 
+app.use('/css', express.static(__dirname + '/public/css'));
+app.all('*', (req, res,next) => {
+    console.log(`Someone requested for the ${req.url}`);
+    res.cookie('cookieName', 'cookie')
+    next();
+});
+
 app.get('/', (req, res) => {
-    console.log(req);
-    res.send('<h1>Sucess</h1>')
+    res.send(`
+        <html>
+            <head>
+                <link type="text/css" rel="stylesheet" href="/css/style.css" />
+            </head>
+            <body>
+                    <h6>Getting html from server</h6>
+            </body>
+        </html>
+    `)
 });
 
 app.get('/api/user', (req, res) => {
