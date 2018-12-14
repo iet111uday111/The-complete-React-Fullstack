@@ -885,8 +885,11 @@ LICENSE
 #### Micro Processor Mechanism
 ![Screenshot](./Screenshots/Screenshot33.png?raw=true "Screenshot")
 
-#### Isomorphic Javascript
+#### Internal Flow of Node Js
 ![Screenshot](./Screenshots/Screenshot34.png?raw=true "Screenshot")
+
+#### Isomorphic Javascript
+![Screenshot](./Screenshots/Screenshot35.png?raw=true "Screenshot")
 
 
 ### Imp Articles
