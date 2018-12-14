@@ -882,6 +882,13 @@ LICENSE
 #### Asynchronous Function Calling 4
 ![Screenshot](./Screenshots/Screenshot32.png?raw=true "Screenshot")
 
+#### Micro Processor Mechanism
+![Screenshot](./Screenshots/Screenshot33.png?raw=true "Screenshot")
+
+#### Isomorphic Javascript
+![Screenshot](./Screenshots/Screenshot34.png?raw=true "Screenshot")
+
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
@@ -1000,8 +1007,6 @@ LICENSE
 
 [Thread based or Event Based](https://blog.red-badger.com/2013/01/29/thread-based-or-event-based)
 
-
-
-
+[Why Everyone is Talking About Isomorphic / Universal JavaScript and Why it Matters](https://medium.com/capital-one-tech/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905)
 
 
