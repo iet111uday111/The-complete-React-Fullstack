@@ -852,6 +852,9 @@ LICENSE
 #### ARTIST INFO APP - ARTIST DETAIL SCREEN
 ![Screenshot](./Screenshots/Screenshot22.png?raw=true "Screenshot")
 
+#### Non Blocking System
+![Screenshot](./Screenshots/Screenshot23.png?raw=true "Screenshot")
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
