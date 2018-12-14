@@ -855,6 +855,33 @@ LICENSE
 #### Non Blocking System
 ![Screenshot](./Screenshots/Screenshot23.png?raw=true "Screenshot")
 
+#### Thread Based Function Calling
+![Screenshot](./Screenshots/Screenshot24.png?raw=true "Screenshot")
+
+#### Function Calling in Javascript 1
+![Screenshot](./Screenshots/Screenshot25.png?raw=true "Screenshot")
+
+#### Function Calling in Javascript 2
+![Screenshot](./Screenshots/Screenshot26.png?raw=true "Screenshot")
+
+#### Callstack Size Exceed Issue
+![Screenshot](./Screenshots/Screenshot27.png?raw=true "Screenshot")
+
+#### SetTimeout Calling
+![Screenshot](./Screenshots/Screenshot28.png?raw=true "Screenshot")
+
+#### Asynchronous Function Calling 1
+![Screenshot](./Screenshots/Screenshot29.png?raw=true "Screenshot")
+
+#### Asynchronous Function Calling 2
+![Screenshot](./Screenshots/Screenshot30.png?raw=true "Screenshot")
+
+#### Asynchronous Function Calling 3
+![Screenshot](./Screenshots/Screenshot31.png?raw=true "Screenshot")
+
+#### Asynchronous Function Calling 4
+![Screenshot](./Screenshots/Screenshot32.png?raw=true "Screenshot")
+
 ### Imp Articles
 
 [The best way to bind event handlers in React](https://medium.freecodecamp.org/the-best-way-to-bind-event-handlers-in-react-282db2cf1530)
@@ -970,6 +997,8 @@ LICENSE
 [How we Redux — Part 5 (Components)](https://medium.com/modern-user-interfaces/how-we-redux-part-5-components-bddd737022e1)
 
 [Dear Templating — Sincerely, JSX](https://medium.com/modern-user-interfaces/dear-templating-sincerely-jsx-part-1-1df99c599001)
+
+[Thread based or Event Based](https://blog.red-badger.com/2013/01/29/thread-based-or-event-based)
 
 
 
