@@ -18,6 +18,16 @@ app.use(cookieParser());
 /**
  * GET Requests
  */
+app.get('/api/auth', auth, (req, res) => {
+    res.json({
+        isAuth: true,
+        id: req.user._id,
+        email: req.user.email,
+        name:req.user.name,
+        lastname:req.user.lastname
+    });
+});
+
 app.get('/api/logout',auth, (req, res) => {
     req.user.deleteToken(req.token, (err, user) => {
         if(err) return res.status(400).send(err);
@@ -144,11 +154,12 @@ app.post('/api/book_update', (req, res) => {
  * DELETE Requests
  */
 
-app.delete('/api/   ', (req, res)=> {
+app.delete('/api/delete_book', (req, res)=> {
     let id = req.query.id;
 
     Book.findByIdAndRemove(id,(err, doc)=> {
         if(err) return res.status(400).send(err);
+        if(!doc) return res.status(404).json({ message: `No Book Available of id : ${id}`});
         res.json(true);
     })
 })
