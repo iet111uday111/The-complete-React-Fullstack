@@ -8,6 +8,9 @@ const config = require('./config/config').get(process.env.NODE_ENV);
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DATABASE);
 
+const { User } = require('./models/user');
+const { Book } = require('./models/book');
+
 app.use(bodyParser.json());
 app.use(cookieParser());
 
