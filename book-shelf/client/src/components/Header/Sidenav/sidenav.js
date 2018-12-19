@@ -12,7 +12,7 @@ const Nav = (props) => {
                 maxWidth:'220px'
             }}
        >
-           Items
+           <SidenavItems/>
         </SideNav>
     );
 };
