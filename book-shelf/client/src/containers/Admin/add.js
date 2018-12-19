@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import { addBook } from '../../actions';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { addBook, clearNewBook } from '../../actions'
 
 class AddBook extends Component {
 
@@ -7,39 +9,58 @@ class AddBook extends Component {
         formdata: {
             name: '',
             author: '',
-            rating: '',
-            price: '',
-            pages: '',
             review: '',
+            pages: '',
+            rating: '',
+            price: ''
         }
     }
+
 
     handleInput = (event, name) => {
-        const newFormData = {
+        const newFormdata = {
             ...this.state.formdata
         }
+        newFormdata[name] = event.target.value
 
-        newFormData[name] = event.target.value;
         this.setState({
-            formdata: newFormData
-        });
+            formdata: newFormdata
+        })
     }
+
+    showNewBook = (book) => (
+
+        book.post ?
+            <div className="conf_link">
+                Cool !! <Link to={`/books/${book.bookId}`}>
+                    Click the link to see the post
+                </Link>
+            </div>
+            : null
+    )
 
     submitForm = (e) => {
         e.preventDefault();
-        console.log(this.state.formdata);
+        this.props.dispatch(addBook({
+            ...this.state.formdata,
+            ownerId: this.props.user.login.id
+        }))
+    }
+
+    componentWillUnmount() {
+        this.props.dispatch(clearNewBook())
     }
 
     render() {
         return (
             <div className="rl_container article">
                 <form onSubmit={this.submitForm}>
-                    <h2>Add a Review</h2>
+                    <h2>Add a review</h2>
 
                     <div className="form_element">
                         <input
                             type="text"
-                            placeholder="Enter Name"
+                            placeholder="Enter name"
                             value={this.state.formdata.name}
                             onChange={(event) => this.handleInput(event, 'name')}
                         />
@@ -48,14 +69,13 @@ class AddBook extends Component {
                     <div className="form_element">
                         <input
                             type="text"
-                            placeholder="Enter Author"
+                            placeholder="Enter author"
                             value={this.state.formdata.author}
                             onChange={(event) => this.handleInput(event, 'author')}
                         />
                     </div>
 
                     <textarea
-                        placeholder="Enter your Review"
                         value={this.state.formdata.review}
                         onChange={(event) => this.handleInput(event, 'review')}
                     />
@@ -91,13 +111,22 @@ class AddBook extends Component {
                         />
                     </div>
 
-                    <button type="submit">Add Review</button>
-
+                    <button type="submit">Add review</button>
+                    {
+                        this.props.books.newbook ?
+                            this.showNewBook(this.props.books.newbook)
+                            : null
+                    }
                 </form>
-
             </div>
-        )
+        );
     }
 }
 
-export default AddBook;
+function mapStateToProps(state) {
+    return {
+        books: state.books
+    }
+}
+
+export default connect(mapStateToProps)(AddBook)
