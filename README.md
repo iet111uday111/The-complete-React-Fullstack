@@ -1012,4 +1012,6 @@ LICENSE
 
 [Why Everyone is Talking About Isomorphic / Universal JavaScript and Why it Matters](https://medium.com/capital-one-tech/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905)
 
+[mapStateToProps, and why you may not need mapDispatchToProps when you start Redux](https://medium.com/ovrsea/mapstatetoprops-and-why-you-may-not-need-mapdispatchtoprops-as-a-beginner-dd012a3da5e6)
+
 
