@@ -891,6 +891,49 @@ LICENSE
 #### Isomorphic Javascript
 ![Screenshot](./Screenshots/Screenshot35.png?raw=true "Screenshot")
 
+#### BOOK-SHELF - Side Nav After Login
+![Screenshot](./Screenshots/Screenshot36.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Side Nav Before Login
+![Screenshot](./Screenshots/Screenshot37.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Home
+![Screenshot](./Screenshots/Screenshot38.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Home
+![Screenshot](./Screenshots/Screenshot38.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Login
+![Screenshot](./Screenshots/Screenshot39.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Book Detail
+![Screenshot](./Screenshots/Screenshot40.png?raw=true "Screenshot")
+![Screenshot](./Screenshots/Screenshot41.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - My Profile
+![Screenshot](./Screenshots/Screenshot42.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Add Admin
+![Screenshot](./Screenshots/Screenshot43.png?raw=true "Screenshot")
+![Screenshot](./Screenshots/Screenshot44.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - User Reviews
+![Screenshot](./Screenshots/Screenshot45.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - User Reviews
+![Screenshot](./Screenshots/Screenshot45.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Add Review
+![Screenshot](./Screenshots/Screenshot46.png?raw=true "Screenshot")
+![Screenshot](./Screenshots/Screenshot47.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Update/Delete Review
+![Screenshot](./Screenshots/Screenshot48.png?raw=true "Screenshot")
+![Screenshot](./Screenshots/Screenshot49.png?raw=true "Screenshot")
+
+#### BOOK-SHELF - Logout
+![Screenshot](./Screenshots/Screenshot50.png?raw=true "Screenshot")
+
 
 ### Imp Articles
 
