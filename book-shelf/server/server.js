@@ -14,7 +14,7 @@ const { auth } = require('./middlewares/auth');
 
 app.use(bodyParser.json());
 app.use(cookieParser());
-console.log(config.NODE_ENV);
+
 /**
  * For Heroku using static file....
  */
@@ -170,7 +170,7 @@ app.delete('/api/delete_book', (req, res)=> {
     })
 })
 
-console.log(process.env.NODE_ENV);
+
 /**
  * Logic for loading the app using build file.
  */
