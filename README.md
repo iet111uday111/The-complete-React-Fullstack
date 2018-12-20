@@ -934,6 +934,9 @@ LICENSE
 #### BOOK-SHELF - Logout
 ![Screenshot](./Screenshots/Screenshot50.png?raw=true "Screenshot")
 
+#### How Webpack related to babel
+![Screenshot](./Screenshots/Screenshot51.png?raw=true "Screenshot")
+
 
 ### Imp Articles
 
