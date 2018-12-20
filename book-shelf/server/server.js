@@ -14,6 +14,12 @@ const { auth } = require('./middlewares/auth');
 
 app.use(bodyParser.json());
 app.use(cookieParser());
+console.log(config.NODE_ENV);
+/**
+ * For Heroku using static file....
+ */
+app.use(express.static('client/build'))
+
 
 /**
  * GET Requests
@@ -163,6 +169,25 @@ app.delete('/api/delete_book', (req, res)=> {
         res.json(true);
     })
 })
+
+console.log(process.env.NODE_ENV);
+/**
+ * Logic for loading the app using build file.
+ */
+// if(process.env.NODE_ENV === 'production'){
+//     const path = require('path');
+//     app.get('/*',(req,res)=>{
+//         res.sendfile(path.resolve(__dirname,'../client','build','index.html'))
+//     })
+// }
+
+if(config.NODE_ENV === 'production' || config.NODE_ENV === 'development'){
+    const path = require('path');
+    app.get('/*',(req,res)=>{
+        res.sendfile(path.resolve(__dirname,'../client','build','index.html'))
+    })
+}
+
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
