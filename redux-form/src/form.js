@@ -38,7 +38,7 @@ class Form extends Component {
 
     onSubmit(values){
         this.props.addMessage(values,()=>{
-           // this.props.history.push('/')
+        //    this.props.history.push('/')
         })
     }
 
