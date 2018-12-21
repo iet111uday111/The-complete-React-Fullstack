@@ -23,3 +23,6 @@ document.onreadystatechange = function () {
 
 console.log("This\nis\nawesome\xa0");
 console.log(String.raw`This\nis\nawesome\xa0`);
+
+console.log("My name isÂ xxx xxx, i'mÂ xxxÂ years old. I work asÂ xxxÂ and make $xxx.");
+
