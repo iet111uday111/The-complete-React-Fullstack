@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 const App = () => {
   return (
     <div>
-      React with Webwork Works
+      React with Webpack Works
     </div>
   )
 }
