@@ -1060,4 +1060,8 @@ LICENSE
 
 [mapStateToProps, and why you may not need mapDispatchToProps when you start Redux](https://medium.com/ovrsea/mapstatetoprops-and-why-you-may-not-need-mapdispatchtoprops-as-a-beginner-dd012a3da5e6)
 
+[Redux 4 + TypeScript: A type-safe approach](https://resir014.xyz/posts/2018/07/06/redux-4-plus-typescript/)
+
+[The Redux Type Flow](https://hackernoon.com/the-redux-type-flow-93aada6964e5)
+
 
