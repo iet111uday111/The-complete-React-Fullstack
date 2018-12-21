@@ -2,12 +2,13 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-    entry: {
-        bundle: './src/index.js'
+    entry:{
+        bundle:"./src/index.js",
+        vendor:['react','react-dom']
     },
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        filename:'[name].[chunkhash].js'
     },
     module: {
         rules: [
@@ -18,6 +19,11 @@ module.exports = {
             }
 
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: ['vendor']
+        })
+    ]
 
 }
