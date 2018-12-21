@@ -19,3 +19,7 @@ document.onreadystatechange = function () {
 
     }
 }
+
+
+console.log("This\nis\nawesome\xa0");
+console.log(String.raw`This\nis\nawesome\xa0`);
