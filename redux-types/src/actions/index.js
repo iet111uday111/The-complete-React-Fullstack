@@ -1,7 +1,7 @@
-
+import { GET_MOVIES, GET_CELEBRITIES, GET_GAMES } from './types';
 export function getMovies(){
     return{
-        type: 'GET_MOVIES',
+        type: GET_MOVIES,
         payload:[
             {"id":1,"name":"Pulp Fiction"},
             {"id":2,"name":"Avatar"},
@@ -16,7 +16,7 @@ export function getMovies(){
 
 export function getGames(){
     return{
-        type: 'GET_GAMES',
+        type: GET_GAMES,
         payload:[
             {"id":1,"name":"Mario"},
             {"id":2,"name":"Battlefield"},
@@ -32,7 +32,7 @@ export function getGames(){
 
 export function getCelebrities(){
     return{
-        type: 'GET_CELEBRITIES',
+        type: GET_CELEBRITIES,
         payload:[
             {"id":1,"name":"Matt Damon"},
             {"id":2,"name":"Homer simpson"},
